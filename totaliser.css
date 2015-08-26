@@ -1,12 +1,13 @@
-#upto10, #upto20, #upto30 {
+#upto10, #upto20, #upto30, #upto40, #upto50, #upto60 ,#upto70, #upto80, #upto90, #fullup  {
     width: 120px;
-    height: 120px;
+    height: 10px;
+    padding-left: 60px;
     background: #4da1f7;
 }
 
 #undr10 {
-    width: 120px;
-    height: 120px;
+    width: 240px;
+    height: 240px;
     background: #7fee1d;
     -moz-border-radius: 60px;
     -webkit-border-radius: 60px;
