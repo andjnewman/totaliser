@@ -1,19 +1,60 @@
+/* set the size of the totaliser */
+
+
+#body{
+    height: 100vh;
+}
+
+
 #totaliser {
     width: 240px;
-    height: 1000px;
+    height: 50vh;
 }
 
-#upto10, #upto20, #upto30, #upto40, #upto50, #upto60 ,#upto70, #upto80, #upto90, #fullup  {
-    width: 100%;
-    height: 10%;
-    background: #4da1f7;
+.over100
+  {
+
+   height:90px;
+   width:60%;
+   border-radius: 120px 120px 0 0;
+   -moz-border-radius: 120px 120px 0 0;
+   -webkit-border-radius: 120px 120px 0 0;
+    margin-left: 20%;
 }
 
-#undr10 {
+.undr100, .undr090, .undr080, .undr070, .undr060, .undr050, .undr040, .undr030, .undr020, .undr010
+  {
+    dispay: block;
+    width: 60%;
+    height: 1%;
+    margin-left: 20%;
+}
+
+
+/* style the totaliser bands */
+
+.over100, .undr100, .undr090, .undr080, .undr070, .undr060, .undr050, .undr040, .undr030, .undr020, .undr010, .baselin
+  {
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: #5b685d;
+    border-width: 2px;
+}
+
+
+/* add & style the bottom */
+
+.baselin {
     width: 240px;
     height: 240px;
-    background: #7fee1d;
-    -moz-border-radius: 120px;
-    -webkit-border-radius: 120px;
-    border-radius: 120px;
+    border-style: solid;
+    border-color: #5b685d;
+    border-width: 2px;
+}
+
+
+/* mark a percentage line */
+
+#val75 {
+    background: red;
 }
